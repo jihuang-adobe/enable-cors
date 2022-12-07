@@ -56,23 +56,6 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.enable-cors</groupId>
-                            <artifactId>enable-cors.ui.apps</artifactId>
-                            <type>zip</type>
-                            <target>/apps/enable-cors-packages/application/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.enable-cors</groupId>
-                            <artifactId>enable-cors.core</artifactId>
-                            <target>/apps/enable-cors-packages/application/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.enable-cors</groupId>
-                            <artifactId>enable-cors.ui.content</artifactId>
-                            <type>zip</type>
-                            <target>/apps/enable-cors-packages/content/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.enable-cors</groupId>
                             <artifactId>enable-cors.ui.config</artifactId>
                             <type>zip</type>
                             <target>/apps/enable-cors-packages/application/install</target>
@@ -178,18 +161,6 @@
     <!-- D E P E N D E N C I E S                                                -->
     <!-- ====================================================================== -->
     <dependencies>
-        <dependency>
-            <groupId>com.enable-cors</groupId>
-            <artifactId>enable-cors.ui.apps</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.enable-cors</groupId>
-            <artifactId>enable-cors.ui.content</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
         <dependency>
             <groupId>com.enable-cors</groupId>
             <artifactId>enable-cors.ui.config</artifactId>
