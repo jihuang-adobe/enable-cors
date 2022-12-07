@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/enable-cors" mode="merge"/>
+    <filter root="/content/enable-cors" mode="merge"/>
+    <filter root="/content/dam/enable-cors/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/enable-cors" mode="merge"/>
+</workspaceFilter>

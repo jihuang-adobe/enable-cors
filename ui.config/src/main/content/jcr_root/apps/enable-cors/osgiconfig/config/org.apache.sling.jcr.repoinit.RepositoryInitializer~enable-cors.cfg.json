@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/enable-cors",
+        "create path (nt:unstructured) /content/dam/enable-cors/jcr:content",
+        "set properties on /content/dam/enable-cors/jcr:content\n  set cq:conf{String} to /conf/enable-cors\n  set jcr:title{String} to \"Enable Cors\"\nend"
+    ]
+}
